@@ -52,7 +52,7 @@ def addSlashToEndOfArg(arg):
 
 
 def archiveAndCopyToDest(archiveName, baseDir):
-    shutil.make_archive(archive, 'gztar', destination) 
+    shutil.make_archive(archiveName, 'gztar', destination, baseDir) 
 
 args = addArguments()
 
